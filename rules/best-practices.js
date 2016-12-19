@@ -1,11 +1,10 @@
 module.exports = {
-    'rules': {
+    rules: {
+        'array-bracket-spacing': [ 2, 'always' ],
         'consistent-return': 2,
-        'curly': [2, 'multi-line'],
+        'curly': [ 2, 'multi-line' ],
         'default-case': 2,
-        'dot-notation': [2, {
-            'allowKeywords': true
-        }],
+        'dot-notation': [ 2, { 'allowKeywords': true } ],
         'eqeqeq': 2,
         'guard-for-in': 2,
         'no-caller': 2,
@@ -37,7 +36,7 @@ module.exports = {
         'no-with': 2,
         'radix': 2,
         'vars-on-top': 0,
-        'wrap-iife': [2, 'any'],
+        'wrap-iife': [ 2, 'any' ],
         'yoda': 2
     }
 };

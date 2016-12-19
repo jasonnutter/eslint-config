@@ -1,5 +1,5 @@
 module.exports = {
-    'rules': {
-        'strict': [2, 'never']
+    rules: {
+        'strict': [ 2, 'never' ]
     }
 };

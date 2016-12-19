@@ -17,17 +17,17 @@ module.exports = {
         superInFunctions: true,
         templateStrings: true
     },
-    'env': {
-        'browser': true,
-        'node': true,
-        'mocha': true
+    env: {
+        browser: true,
+        mocha: true,
+        node: true
     },
     extends: [
-        './rules/react.js',
         './rules/best-practices.js',
         './rules/import.js',
         './rules/mocha.js',
         './rules/possible-errors.js',
+        './rules/react.js',
         './rules/strict.js',
         './rules/style.js',
         './rules/variables.js'
