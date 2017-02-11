@@ -32,5 +32,8 @@ module.exports = {
         './rules/style.js',
         './rules/variables.js'
     ],
+    globals: {
+        expect: true
+    },
     rules: {}
 };
