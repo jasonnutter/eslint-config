@@ -7,14 +7,7 @@ Inspired by the ESLint configuration used internally at [Porch](https://github.c
 ## Installation
 
 ```sh
-npm install eslint@3 --save-dev
-npm install babel-eslint@7 --save-dev
-npm install eslint-config-airbnb@14 --save-dev
-npm install eslint-plugin-import@2 --save-dev
-npm install eslint-plugin-jsx-a11y@4 --save-dev
-npm install eslint-plugin-mocha@4 --save-dev
-npm install eslint-plugin-react@6 --save-dev
-npm install @jasonnutter/eslint-config --save-dev
+yarn add @jasonnutter/eslint-config --dev
 
 ```
 
